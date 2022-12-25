@@ -12,10 +12,11 @@ And I also enjoy games with multiple plot twists and secret endings, so I made t
 - Line Developer Console
 # Basic Requirements
 ## FSM
-Whole State Diagram(Click image to see more clearly)
+### Whole State Diagram(Click image to see more clearly)
 ![](./text_adventure_line_bot/static/whole_state_diagram.png)
 
-Initial State Diagram
+### Initial State Diagram
+
 ![](./text_adventure_line_bot/static/initial_state_diagram.png)
 
 Implemented with pytransitions/transitions package
