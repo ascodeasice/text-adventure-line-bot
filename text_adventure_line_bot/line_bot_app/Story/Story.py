@@ -26,7 +26,7 @@ class Story(object):
     ]+all_endings
 
     def __init__(self):
-        self.machine=GraphMachineWithTimeout(model=self,states=Story.states,initial='story_begin',ignore_invalid_triggers=True)
+        self.machine=GraphMachineWithTimeout(model=self,states=Story.states,initial='story_begin',ignore_invalid_triggers=True,show_conditions=True,show_state_attributes=True)
         self.has_been_bitten=False 
         self.has_got_jewlery=False
         self.asked_sister_to_follow=False
