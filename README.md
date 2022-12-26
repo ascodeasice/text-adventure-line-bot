@@ -35,7 +35,11 @@ Implemented with pytransitions/transitions package
 ## How to use
 1. Scan QR code with your phone, or search Line ID:@899djtxa 
 <img src='./text_adventure_line_bot/static/qr_code.png' width='100' alt='QR CODE'/>
+
+
 2. Add the bot as friend
+
+
 3. The bot will tell you the story and offer you options, you can press buttons on screen or type uppercase letters to act
 
 <img src='./text_adventure_line_bot/static/in_game_image.jpg' height='400' alt='game screen'/>

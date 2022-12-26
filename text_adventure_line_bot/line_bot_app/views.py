@@ -16,9 +16,7 @@ from .Story.state_text import state_text
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 parser = WebhookParser(settings.LINE_CHANNEL_SECRET)
 story=Story()
-message=""
 
-# TODO send message when first added as friend
 @csrf_exempt
 def callback(request):
     if request.method == 'POST':
